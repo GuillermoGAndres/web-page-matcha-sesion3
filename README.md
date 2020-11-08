@@ -12,4 +12,8 @@ Puesto que justify-content alinea a los flex items en el eje principal, mientras
 ![capterra](./img/progress1.png)
 ![capterra](./img/progress2.png)
 
+## Tarea realizada por rama task1/001/MultimediaVideo "Agregacion de botones y portada al video"
+![task1](./img/task1.png)
+
+
 
