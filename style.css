@@ -159,3 +159,21 @@ main {
     margin-top: 285px;
     text-align: center;
 }
+
+.container-flex-promo video {
+    margin-right: 50px;
+}
+
+/*--------------------Container video --------------------*/
+
+.container-video {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-video > img {
+      width: 120px;
+      margin-top: 10px; 
+}
+

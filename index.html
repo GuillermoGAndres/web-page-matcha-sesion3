@@ -58,28 +58,30 @@
 	<!-- Contendor flex -->
 	<section class="container-flex-promo">
 
-	    <!-- Video promocional -->
-	    <video
-		controls
-		poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg"
-	    >
-		<!-- src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm"  es buena idea, si tenes el video es tu servidos que ta solo acepta un formato-->
-		<!-- Para que aparezca los botones de reproduccion es atrib: controls-->
-		<!-- -Para tener varios formatos en caso de que no funcione uno --> 
-		<source
-		    type="video/webm"
-		    src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm<"		   
+	    <div class="container-video">
+		<!-- Video promocional -->
+		<video>
+		    <!-- src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm"  es buena idea, si tenes el video es tu servidos que ta solo acepta un formato-->
+		    
+		    <!-- -Para tener varios formatos en caso de que no funcione uno --> 
+		    <source
+			type="video/webm"
+			src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm<"		   
+		    />
+		    <source
+			type="video/mp4"
+			src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4<"
+		    />
+		    <source
+			type="video/mp4"
+			src="./video/computer_code00_preview.mp4"
+		    />
+		</video>
+		<img alt="See how it works"
+		     src="https://getmatcha.com/wp-content/themes/getmatcha/img/see_how_it_works.png"
 		/>
-		<source
-		    type="video/mp4"
-		    src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4<"
-		/>
-		<source
-		    type="video/mp4"
-		    src="./video/computer_code00_preview.mp4"
-		/>
-	    </video>
-	    
+
+	    </div>
 	    <!-- Contenido de publicidad -->
 	    <article class="publicidad">
 		<h1 class="encabezado encabezado-publicidad"> Publish to your blog in minutes, not hours.</h1>
