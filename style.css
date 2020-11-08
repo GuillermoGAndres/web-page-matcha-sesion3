@@ -82,10 +82,16 @@ li {
     border-radius: 5px;
 }
 
+
+/*---------------Common Things--------------------------*/
+
+.encabezado {
+    color: #025157;
+}
+
 /*----- Parte principal de la pagina ------------------*/
 
-#encabezado-principal {
-    color: #025157;
+.encabezado-principal {
     margin: 0 0 24px 0;
     font-size: 70px;
 }
@@ -108,20 +114,30 @@ li {
 
 /*----------------Publish text------------------------*/
 
-#encabezado-publicidad {
-    color: #025157;
+.encabezado-publicidad {
+    font-family: serif;
     font-size: 40px;
     margin: 0 0 9px 0;
+    line-height: 48px;
 }
 
 .texto-publicidad {
     font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
 }
 
 .footer-texto-publicidad {
     font-size: 14px;
+    color: #025157;
+    margin-right: 18px;
+    
 }
 
+.publicidad > form {
+    display: flex;
+}
 
 /*--------Sesion 3 contenedor Flex -------------*/
 .container-flex-promo {
@@ -137,7 +153,6 @@ li {
     left: 0;
     right: 0;
     background-color: #fffbf7;
-	
 }
 
 main {

@@ -17,3 +17,9 @@ Puesto que justify-content alinea a los flex items en el eje principal, mientras
 
 
 
+
+
+
+## Tarea realizada por la rama task/002/Publicidad "Formulario y estilos en la seccion de publicidad"
+![task2](./img/task2.png)
+
