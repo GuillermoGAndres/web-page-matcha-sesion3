@@ -58,25 +58,30 @@
 	<!-- Contendor flex -->
 	<section class="container-flex-promo">
 
-	    <!-- Video promocional -->
-	    <video>
-		<!-- src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm"  es buena idea, si tenes el video es tu servidos que ta solo acepta un formato-->
+	    <div class="container-video">
+		<!-- Video promocional -->
+		<video>
+		    <!-- src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm"  es buena idea, si tenes el video es tu servidos que ta solo acepta un formato-->
+		    
+		    <!-- -Para tener varios formatos en caso de que no funcione uno --> 
+		    <source
+			type="video/webm"
+			src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm<"		   
+		    />
+		    <source
+			type="video/mp4"
+			src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4<"
+		    />
+		    <source
+			type="video/mp4"
+			src="./video/computer_code00_preview.mp4"
+		    />
+		</video>
+		<img alt="See how it works"
+		     src="https://getmatcha.com/wp-content/themes/getmatcha/img/see_how_it_works.png"
+		/>
 
-		<!-- -Para tener varios formatos en caso de que no funcione uno --> 
-		<source
-		    type="video/webm"
-		    src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm<"		   
-		/>
-		<source
-		    type="video/mp4"
-		    src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4<"
-		/>
-		<source
-		    type="video/mp4"
-		    src="./video/computer_code00_preview.mp4"
-		/>
-	    </video>
-	    
+	    </div>
 	    <!-- Contenido de publicidad -->
 	    <article>
 		<h1 id="encabezado-publicidad"> Publish to your blog in minutes, not hours.</h1>
